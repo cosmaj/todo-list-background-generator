@@ -1,1 +1,1 @@
-# Simple todo-list with backgroung-generator
+# Simple todo-list with background-generator
