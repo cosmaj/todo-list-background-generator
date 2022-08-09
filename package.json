@@ -1,0 +1,26 @@
+{
+  "name": "todo-list-background-generator",
+  "version": "1.0.0",
+  "description": "A todo list with background generator",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify ./scripts/main.js > ./scripts/bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmaj/todo-list-background-generator.git"
+  },
+  "keywords": [
+    "background-generator"
+  ],
+  "author": "cosmaj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cosmaj/todo-list-background-generator/issues"
+  },
+  "homepage": "https://github.com/cosmaj/todo-list-background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
